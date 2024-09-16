@@ -574,6 +574,10 @@ video {
   top: 0px;
 }
 
+.bottom-5 {
+  bottom: 1.25rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -618,6 +622,18 @@ video {
 
 .h-\[168px\] {
   height: 168px;
+}
+
+.h-\[172px\] {
+  height: 172px;
+}
+
+.h-\[166px\] {
+  height: 166px;
+}
+
+.h-\[160px\] {
+  height: 160px;
 }
 
 .w-full {
@@ -814,6 +830,10 @@ video {
 
 .hover\:h-\[305px\]:hover {
   height: 305px;
+}
+
+.hover\:h-\[306px\]:hover {
+  height: 306px;
 }
 
 .hover\:bg-gray-500:hover {
