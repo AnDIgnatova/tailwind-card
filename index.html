@@ -17,14 +17,14 @@
 
 </head>
 
-<body class="bg-white relative group-hover:z-30">
+<body class="bg-white relative group-hover:z-30 min-h-screen flex justify-center items-center">
     <div class="mx-auto my-40 min-w-80 max-w-md">
         <div class="relative">
             <img class="w-full" src="./img/Image.jpg" alt="" />
             <button
                 class="absolute top-0 right-0 text-gray-800 px-3 py-1 rounded bg-white m-3 border-gray-200 font-medium">button</button>
         </div>
-        <div class="group bg-white border border-gray-200 shadow-md relative bottom-5 hover:bottom-40 duration-300 h-[166px] hover:h-[306px]">
+        <div class="group bg-white border border-gray-200 shadow-md relative bottom-5 hover:bottom-40 duration-300 h-[166px] hover:h-[306px] overflow-hidden">
             <div class="p-3 pt-4 flex justify-between items-center">
                 <div class="">
                     <p class="mb-1 text-sm font-normal tracking-tight text-gray-500">Subheader</p>
@@ -34,13 +34,13 @@
                     <h5 class="m-0 text-xl font-medium tracking-tight text-gray-800">Text</h5>
                 </div>
             </div>
-            <div class="pt-0 p-3 flex justify-center flex-col items-center gap-1 group-hover:hidden">
+            <div class="pt-0 p-3 flex justify-center flex-col items-center gap-1 relative group-hover:absolute group-hover:top-52 group-hover:z-20">
                 <button
                     class="inline-flex items-center px-[121.5px] py-3.5 text-base font-semibold text-center text-white bg-gray-500 rounded-lg hover:bg-gray-500 animate-slide-up transition duration-0 hover:duration-300">
                     Button</button>
                 <p class="mb-1 text-xs font-normal tracking-tight text-gray-500">Sub text<p>
             </div>
-            <div class="p-3 pt-0 bg-white relative hidden group-hover:block group-hover:top-0 duration-300 z-10">
+            <div class="p-3 pt-0 bg-white relative hidden group-hover:block group-hover:top-0 duration-300 z-10 group-hover:pb-[88px]">
                 <ul class="flex flex-col pt-3 gap-2 border-solid border-t-2">
                     <li class="flex flex-row justify-between">
                         <p class="text-gray-500 text-sm font-normal">Text</p>
@@ -60,14 +60,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="hidden group-hover:block relative z-20">
-                <div class="pt-0 p-3 flex justify-center flex-col items-center gap-1">
-                    <button
-                        class="inline-flex items-center px-[121.5px] py-3.5 text-base font-semibold text-center text-white bg-gray-500 rounded-lg hover:bg-gray-500 animate-slide-up">
-                        Button</button>
-                    <p class="mb-1 text-xs font-normal tracking-tight text-gray-500">Sub text</p>
-                </div>
-            </div>
+          
         </div>
 
     </div>

@@ -562,8 +562,8 @@ video {
   position: relative;
 }
 
-.bottom-0 {
-  bottom: 0px;
+.bottom-5 {
+  bottom: 1.25rem;
 }
 
 .right-0 {
@@ -572,10 +572,6 @@ video {
 
 .top-0 {
   top: 0px;
-}
-
-.bottom-5 {
-  bottom: 1.25rem;
 }
 
 .z-10 {
@@ -620,20 +616,12 @@ video {
   display: none;
 }
 
-.h-\[168px\] {
-  height: 168px;
-}
-
-.h-\[172px\] {
-  height: 172px;
-}
-
 .h-\[166px\] {
   height: 166px;
 }
 
-.h-\[160px\] {
-  height: 160px;
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-full {
@@ -674,6 +662,10 @@ video {
 
 .gap-2 {
   gap: 0.5rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded {
@@ -828,10 +820,6 @@ video {
   bottom: 10rem;
 }
 
-.hover\:h-\[305px\]:hover {
-  height: 305px;
-}
-
 .hover\:h-\[306px\]:hover {
   height: 306px;
 }
@@ -845,12 +833,40 @@ video {
   transition-duration: 300ms;
 }
 
+.group:hover .group-hover\:absolute {
+  position: absolute;
+}
+
 .group:hover .group-hover\:top-0 {
   top: 0px;
 }
 
+.group:hover .group-hover\:top-36 {
+  top: 9rem;
+}
+
+.group:hover .group-hover\:top-60 {
+  top: 15rem;
+}
+
+.group:hover .group-hover\:top-80 {
+  top: 20rem;
+}
+
+.group:hover .group-hover\:top-64 {
+  top: 16rem;
+}
+
+.group:hover .group-hover\:top-52 {
+  top: 13rem;
+}
+
 .group:hover .group-hover\:z-30 {
   z-index: 30;
+}
+
+.group:hover .group-hover\:z-20 {
+  z-index: 20;
 }
 
 .group:hover .group-hover\:block {
@@ -859,4 +875,8 @@ video {
 
 .group:hover .group-hover\:hidden {
   display: none;
+}
+
+.group:hover .group-hover\:pb-\[88px\] {
+  padding-bottom: 88px;
 }
